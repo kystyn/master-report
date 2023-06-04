@@ -108,12 +108,17 @@
 
 \newcommand{\abstractRu}{Целью данной работы является построение программного продукта, который позволяет распознавать структуру химических, в том числе стереоорганических, молекул. Основным требованием является способность распознавать изображения, полученные из сканов печатной литературы и электронных документов.
 \\
-При выполнении работы произведён анализ программных продуктов, выполняющих задачу распознавания структуры молекулы, основанных на принципах оптического распознавания знаков (алгоритмический подход) и машинного обучения. Разработано решение в парадигме машинного обучения: построен конвейер из трёх моделей машинного обучения с архитекурами Faster R-CNN, CNN и CNN. В открытых источниках найден набор InChI-последовательностей для обучения и тестирования моделей. Реализован генератор изображений молекул с различными аугментациями, такими как изменение разрешения изображения, толщина и длина линий связей, шрифты атомов, гауссовский шум на изображении. Построен алгоритм, осуществляющий сборку молекулы из распознанных компонентов и валидацию построенного химического соединения. Оценено качество для всех этапов полученного решения. Произведено сравнение качества с существующими решениями. Выполнены замеры производительности программного продукта.
+При выполнении работы произведён анализ программных продуктов, выполняющих задачу распознавания структуры молекулы, основанных на принципах оптического распознавания знаков (алгоритмический подход) и машинного обучения. Разработано решение в парадигме машинного обучения: построен конвейер из трёх моделей машинного обучения с архитекурами Faster R-CNN, CNN и CNN. В открытых источниках найден набор InChI-последовательностей для обучения и тестирования моделей. Реализован генератор изображений молекул с различными аугментациями, такими как изменение разрешения изображения, толщина и длина линий связей, шрифты меток атомов, гауссовский шум на изображении. Построен алгоритм, осуществляющий сборку молекулы из распознанных компонентов и валидацию построенного химического соединения. Оценено качество для всех этапов полученного решения. Произведено сравнение качества с существующими решениями. Выполнены замеры производительности программного продукта.
 \\
 Работа реализована на языке программирования Python. Обучение производилось на платформе Google Cloud и на персональном ноутбуке с видеокартой.} % ВВЕДИТЕ текст аннотации по-русски
 %%
 %%
-\newcommand{\abstractEn}{In the given work the essence of the approach to creation of a dynamic information portal on the basis of use of open technologies Apache, MySQL and PHP is stated. The general concepts and classification of IT-systems of such class are given. The analysis of systems-prototypes is lead. The technology of creation of the specified class of information systems is investigated. Concrete program realization of a dynamic information portal on an example of a portal of the chosen subjects is developed...} % ВВЕДИТЕ текст аннотации по-английски
+\newcommand{\abstractEn}{This study aims at building a software product capable of recognizing the structure of chemical molecules, stereoorganic ones in particular. The primary feature of this product is the ability to recognize images from photocopies of print materials and electronic documents.
+	\\
+The study involved the analysis of the software products designed to recognize the structure of a molecule, that are based on optical character recognition (algorithmic approach) and machine learning. The solution was developed in the machine learning paradigm, and it included building a pipeline of three machine learning models with the Faster R-CNN, CNN and CNN architectures. A set of InChl sequences used for training and testing models was found in open source. A generator was developed for producing molecule images with various augmentations, such as changing image resolution, varying thickness and length of lines representing the bonds between atoms, atomic label fonts, Gaussian noise. An algorithm was designed to assemble the correctly recognized chemical components into one molecule and then validate the resulting chemical compound. The quality of image recognition and molecule assembly was assessed and compared with the existing solutions. The software product performance was measured and evaluated.
+	\\
+The software code is written in the Python programming language. The models were trained on the Google Cloud platform and on personal computer with a GPU.
+}
 
 
 %%% РАЗДЕЛ ДЛЯ ОФОРМЛЕНИЯ ПРАКТИКИ
@@ -128,7 +133,7 @@
 %	22.06.2020
 }%
 \newcommand{\PracticeEndDate}{%
-	01.05.2023
+	31.05.2023
 }%
 %%
 
