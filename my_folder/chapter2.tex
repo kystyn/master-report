@@ -285,6 +285,20 @@ Object detection задача состоит в необходимости на�
 	\caption{Качество обучения классификатора связей}
 \end{table}
 
+\begin{figure}[ht!] 
+	\center
+	\includegraphics [scale=0.8] {my_folder/images/bonddir_accuracy}
+	\caption{График зависимости метрики categorical accuracy от номера эпохи}
+	\label{fig:AP50_bonddir_accuracy}
+\end{figure}
+
+\begin{figure}[ht!] 
+	\center
+	\includegraphics [scale=0.8] {my_folder/images/bonddir_loss}
+	\caption{График зависимости функции потерь от номера эпохи}
+	\label{fig:AP50_bonddir_loss}
+\end{figure}
+
 Для классификатора меток атомов были получены следующие данные:
 
 \begin{table}[htbp]% Пример оформления таблицы
@@ -300,7 +314,19 @@ Object detection задача состоит в необходимости на�
 	\caption{Качество обучения классификатора меток атомов}
 \end{table}
 
-% TODO графики лосса и качества в зависимости от числа итераций
+\begin{figure}[ht!] 
+	\center
+	\includegraphics [scale=0.8] {my_folder/images/atom_accuracy}
+	\caption{График зависимости метрики categorical accuracy от номера эпохи для классификатора категорий связей}
+	\label{fig:AP50_atom_accuracy}
+\end{figure}
+
+\begin{figure}[ht!] 
+	\center
+	\includegraphics [scale=0.8] {my_folder/images/atom_loss}
+	\caption{График зависимости функции потерь от номера эпохи для классификатора меток атомов}
+	\label{fig:AP50_atom_loss}
+\end{figure}
 
 
 %\input{my_folder/tex/rules-list-of-environments} % список некоторых окружений
